@@ -1,0 +1,42 @@
+﻿body {
+}
+
+.container-xl {
+    background-color: #0f0f0f;
+    border-radius: 50px;
+    padding-bottom: 10px;
+}
+.FL-container {
+    width: 100%;
+    height: auto;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    background-color: #0f0f0f;
+}
+
+.FL-content {
+    position: absolute;
+    max-width: 100%;
+    background-color: #0f0f0f;
+}
+
+.FL-head {
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+}
+
+.FL-text{
+    font-size: 14px;
+}
+
+.FL-img{
+
+}
+
+.OGL{
+    font-size: 16px;
+    color: aqua;
+}

@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TheSorrowOfTheGreatPavel</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/FLStudio.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TheSorrowOfTheGreatPavel.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 navbar-custom">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 navbar-nav-custom">
+                        <li>
+                            <a class="krasivaya-knopka" asp-controller="Home" asp-action="Index">Главная</a>
+                         </li>
+                        <li class="nav-item">
+                            <a class="krasivaya" href="#kanevalus">О нас</a>
+                            <div class="kanevalus" id="kanevalus">
+                                <div class="vepuvakus-davnusen">
+                                    <div class="povekunosa">
+                                        <img src="..\images\karta.png" alt="">
+                                    </div>
+                                    <div class="kanevalustext">
+                                        <h1>О НАС</h1>
+                                        <p>
+                                            Этот проект создан специально для
+                                            моей курсовой работы. Я музыкант, у
+                                            меня свой ютуб канал, куда
+                                            выкладываю свою музыку. Так я
+                                            выпустил сингл на все плащадки
+                                            начиная от спотифая заканчивая яндекс
+                                            музыкой.
+                                        </p>
+                                    </div>
+                                    <a class="kuchayevsena" href="#">X</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="krasivaya-knopka"  href="#kanevalus2">Контакты</a>
+                            <div class="kanevalus2" id="kanevalus2">
+                                <div class="vepuvakus-davnusen2">
+                                    <div class="povekunosa2">
+                                        <img src="..\images\karta.png" alt="">
+                                    </div>
+                                    <div class="kanevalustext2">
+                                        <h1>КОНТАКТЫ</h1>
+                                        <p>Добавляйте в друзья: <a href="https://vk.com/ban_suka79">ВК</a></p>
+                                        <p>Задавайте вопросы на мою почту: <a href="https://mail.google.com">kakosikraft04@gmail.com</a></p>
+                                    </div>
+                                    <a class="kuchayevsena" href="#">X</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="krasivaya-knopka" href="#kanevalus4">Войти</a>
+                            <div class="kanevalus3" id="kanevalus3">
+                                <div class="vepuvakus-davnusen3">
+                                    <div class="kanevalustext3">
+                                        <form action="index.php">
+                                            <div class="container-login">
+                                                <h1>Регистрация</h1>
+                                                <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+                                                <hr>
+                                                <label for="login"><b>Ваш логин</b></label>
+                                                <input type="text" placeholder="Введите Логин" name="login" required>
+                                                <label for="password">
+                                                    <b>Ваш пароль (введите не менее 8 символов)</b>
+                                                </label>
+                                                <input type="password" placeholder="Введите Пароль" name="password" minlength="8" required />
+                                                <label for="repeat-password">
+                                                    <b>Повторите Ваш пароль</b>
+                                                </label>
+                                                <input type="password" placeholder="Введите Пароль" name="-password" minlength="8" required />
+                                                <hr>
+                                                <button type="submit" class="registerbtn">Зарегистрироваться</button>
+                                            </div>
+                                            <div class="container-signin">
+                                                <p>Уже создан аккаунт? <a href="#kanevalus4">Войдите</a>.</p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                <a class="kuchayevsena4" href="#">X</a>
+                                </div>
+                            </div>
+                <div class="kanevalus4" id="kanevalus4">
+                    <div class="vepuvakus-davnusen4">
+                        <div class="kanevalustext4">
+                            <form action="display.php" method="POST">
+                                <div class="container-login">
+                                    <h1>Вход в аккаунт</h1>
+                                    <p>Пожалуйста, заполните эту форму, чтобы войти в  учетную запись.</p>
+                                    <hr>
+                                    <label for="login"><b>Ваш логин</b></label>
+                                    <input type="text" placeholder="Введите Логин" name="login" required>
+                                    <label for="password">
+                                        <b style="black">Ваш пароль</b>
+                                    </label>
+                                    <input type="password" placeholder="Введите Пароль" name="password" minlength="8" required />
+                                    <hr>
+                                    <button type="submit" class="signinbtn">Войти</button>
+                                    <div class="container-signin">
+                                        <p>Нет аккаунта? <a href="#kanevalus3">Зарегистрируйтесь</a>.</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <a class="kuchayevsena" href="#">X</a>
+                    </div>
+                </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div style="padding-top: 100px;">
+    <footer class="border-top footer text-muted">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 navbar-custom">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 navbar-nav-custom">
+                        <li>
+                            <a class="krasivaya-knopka" href="https://www.youtube.com/channel/UCSvK4mEg-E5__pNFP7sfYGA">ПОДПИШИСЬ</a>
+                        </li>
+                        <li>
+                            <a class="krasivaya-knopka" href="#kanevalus">О НАС</a>
+                        </li>
+            <div class="kanevalus" id="kanevalus">
+                <div class="vepuvakus-davnusen">
+                    <div class="povekunosa">
+                        <img src="..\images\karta.png" alt="">
+                    </div>
+                    <div class="kanevalustext">
+                        <h1>О НАС</h1>
+                        <p>
+                            Этот проект создан специально для
+                            моей курсовой работы. Я музыкант, у
+                            меня свой ютуб канал, куда
+                            выкладываю свою музыку. Так я
+                            выпустил сингл на все плащадки
+                            начиная от спотифая заканчивая яндекс
+                            музыкой.
+                        </p>
+                    </div>
+                        <li><a class="kuchayevsena" href="#kanevalus">X</a>
+                        </li>
+                </div>
+            </div>
+
+            <a class="krasivaya-knopka2" href="#kanevalus2">КОНТАКТЫ</a>
+            <div class="kanevalus2" id="kanevalus2">
+                <div class="vepuvakus-davnusen2">
+                        <div class="povekunosa2">
+                            <img src="..\images\karta.png" alt="">
+                        </div>
+                        <div class="kanevalustext2">
+                            <h1>КОНТАКТЫ</h1>
+                            <p>Добавляйте в друзья: <a href="https://vk.com/ban_suka79">ВК</a></p>
+                            <p>Задавайте вопросы на мою почту: <a href="https://mail.google.com">kakosikraft04@gmail.com</a></p>
+                        </div>
+                    <a class="kuchayevsena2" href="">X</a>
+                </div>
+            </div>
+        </div>
+        </nav>
+    </footer>
+</div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

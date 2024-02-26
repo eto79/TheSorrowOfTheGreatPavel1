@@ -1,0 +1,215 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="intro">
+    <div class="intro_container">
+        <div class="intro_inner">
+            <h1 class="intro_tittle"><u>ВЫ УЗНАЕТЕ</u></h1>
+            <h2 class="intro_suptittle">КАК ПОЛЬЗОВАТЬСЯ АУДИОРЕДАКТОРАМИ;</h2>
+            <h2 class="intro_suptittle">ИСТОРИЮ ИХ СОЗДАНИЯ;</h2>
+            <h2 class="intro_suptittle">ОБЛАСТИ ИХ ПРИМЕНЕНИЯ;</h2>
+            <h2 class="intro_suptittle">И ТАК ДАЛЕЕ...</h2>
+        </div>
+    </div>
+</div>
+<div class="center">
+    <div class="container_center">
+        <div class="center_inner">
+            <h1 class="center_titltle">Для начала</h1>
+            <h3 class="center_suptittle">
+                Вам нужно определиться с какой целью
+                нужен вам аудиоредактор. Вы хотите
+                написать музыку, озвучить фильм или же
+                вам нужно быстро и сердито обрезать
+                аудиозвук и не париться, на счёт других
+                мелочах.
+            </h3>
+            <h3 class="center_suptittle2">
+                Для каждой цели, есть своя отдельно
+                заточенная под это программа или сайт,
+                и я постараюсь вам в этом разобраться.
+                Ведь каждая программа в совокупности
+                друг на друга очень сильно похоже, но
+                дьявол как всегда кроиться в деталях...
+            </h3>
+            <div class="knopka">
+                <img src=".../images/Knopka.png" ;>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="osnova">
+    <div class="cards">
+        <!-- Карточка товара -->
+        <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+                <!-- Изображение-ссылка товара -->
+                <a asp-controller="Home" asp-action="FLStudio" class="card__image">
+                    <img src="/images/FLS.png" alt="FL 21" ;>
+                </a>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+                <!-- Ссылка-название товара -->
+                <h3 class="card__title">
+                    FL STUDIO 21 - это музыкальный редактор, больше подходит для домашнего пользования.
+                </h3>
+                <!-- Кнопка добавить в корзину -->
+                <a asp-controller="Home" asp-action="FLStudio">
+                    <button class="card__add">Перейти...</button>
+                </a>
+            </div>
+        </div>
+        <!-- Карточка товара -->
+        <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+                <!-- Изображение-ссылка товара -->
+                <a asp-controller="Home" asp-action="Ableton" class="card__image">
+                    <img src="../images/ABLETON.png" alt="ABLETON" ;>
+                </a>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+                <!-- Ссылка-название товара -->
+                <h3 class="card__title">
+                    ABLETON - это музыкальный редактор, но ариентированно сделан был больше для студозаписей.
+                </h3>
+                <!-- Кнопка добавить в корзину -->
+                <a asp-controller="Home" asp-action="Ableton">
+                    <button class="card__add">Перейти...</button>
+                </a>
+            </div>
+        </div>
+        <!-- Карточка товара -->
+        <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+                <!-- Изображение-ссылка-->
+                <a asp-controller="Home" asp-action="Reaper" class="card__image">
+                    <img src="../images/REAPER.png" alt="REAPER" ;>
+                </a>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+                <h3 class="card__title">
+                    REAPER - это тоже в своём роде музыкальный редактор, но ариентирован больше уже на свидения аудио и видео.
+                </h3>
+                <a asp-controller="Home" asp-action="Reaper">
+                    <button class="card__add">Перейти...</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="test">
+    <div class="container">
+        <div class="test_inner">
+            <h1 class="test_titltle">
+                КАКОЙ АУДИОРЕДАКТОР ВАМ БОЛЬШЕ ПОДХОДИТ
+            </h1>
+            <div class="yoga">
+                <img src="../images/YOGA.png" alt="YOGA"><h3 class="test_suptittle">
+                    Я подготовил для вас тест, что бы вы могли лучше представлять какой аудиоредактор лучше использовать. Ведь их так много, а вы одни. Начиная от музыкальных редакторов, заканчивая сайтами которые просто могут обрезать аудио и больше ничего.
+                </h3>
+            </div>
+            <div class="knopka2">
+                <a class="centered" href="https://onlinetestpad.com/g7zcqapetenua">Пройти тест</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="kyrs">
+    <div class="container">
+        <div class="kyrs_inner">
+            <h1 class="kyrs_titltle">МОИ КУРСЫ</h1>
+            <div class="visota">
+                <div class="cards">
+                    <!-- Карточка товара -->
+                    <div class="card2">
+                        <!-- Верхняя часть -->
+                        <div class="card__top2">
+                            <!-- Изображение-ссылка товара -->
+                            <a href="~/resurse/Основы FL STUDIO.pdf" class="card__image2">
+                                <img src="../images/AAA.png" alt="FL 21" ;>
+                            </a>
+                        </div>
+                        <!-- Нижняя часть -->
+                        <div class="card__bottom2">
+                            <!-- Ссылка-название товара -->
+                            <h3 class="card__title2">
+                                Главная особенность этого курса заключается в том, что вы будете знать о программе всё. Здесь мы с вами рассмотрим абсолютно все возможности программы, поговорим о каждой ручке, кнопке, опции.
+                            </h3>
+                            <!-- Кнопка добавить в корзину -->
+                            <a href="~/resurse/Основы FL STUDIO.pdf">
+                                <button class="card__add2">Перейти</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card2">
+                        <!-- Верхняя часть -->
+                        <div class="card__top2">
+                            <!-- Изображение-ссылка товара -->
+                            <a href="~/resurse/Шпаргалка.pdf" class="card__image2">
+                                <img src="../images/AAA2.png" alt="FL 21" ;>
+                            </a>
+                        </div>
+                        <!-- Нижняя часть -->
+                        <div class="card__bottom2">
+                            <!-- Ссылка-название товара -->
+
+                            <h3 class="card__title2">
+                                Я подготовил для вас шпаргалку, в которой представлены самые универсальные аккорды, которые идеально друг с другом сочетаются, и дают
+                                просто шикарные гармонии. И всего примерно их 17 шт., 17 шт аккордов.
+                            </h3>
+                            <a href="~/resurse/Шпаргалка.pdf">
+                                <!-- Кнопка добавить в корзину -->
+                                <button class="card__add2">Перейти</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card2">
+                        <!-- Верхняя часть -->
+                        <div class="card__top2">
+                            <!-- Изображение-ссылка товара -->
+                            <a href="~/resurse/Основная информация о лейблах.pdf" class="card__image2">
+                                <img src="../images/AAA3.png" alt="FL 21" ;>
+                            </a>
+                        </div>
+                        <!-- Нижняя часть -->
+                        <div class="card__bottom2">
+                            <!-- Ссылка-название товара -->
+                            <h3 class="card__title2">
+                                Основная информация о лейблах, о том почему же могут не принять ваш трэк, расскажу о дополнительних плат на продвежение вашего трэка, чего не стоит ждать от лейблов и чего не стоит делать при отправке трека.
+                            </h3>
+                            <a href="~/resurse/Основная информация о лейблах.pdf">
+                                <!-- Кнопка добавить в корзину -->
+                                <button class="card__add2">Перейти</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="predpodval">
+    <div class="container">
+      <div class="pred_inner">
+            <h1 class="pred_titltle">
+                НЕМНОГО ЕЩЁ ИНФОРМАЦИИ
+            </h1>
+            <h3 class="pred_suptittle">
+                Не зависимо от результатов принятых вами решений, знайте, в музыкальном мире нет понятий првильно/неправильно, есть только вы и ваша задача, только вы должны решать как вам идти за своей мечтой. Этот сайт лишь немного может вам помочь в достижение вашей мечты, но лишь немного. Слушайте ТОЛЬКО критику, а не пустые разговоры в вашу сторону, главное чтобы было интересно именно вам этим заниматься, а остальное придёт с опытом. Главное это не загоняйте  себя в определённые рамки жанра, сделайте так чтобы вас узнавали, узнавали ваш стиль написания музыки не зависимо от жанра!
+            </h3>
+         </div>
+    </div>
+</div>

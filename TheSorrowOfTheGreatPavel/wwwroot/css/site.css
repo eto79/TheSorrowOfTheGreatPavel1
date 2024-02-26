@@ -1,0 +1,1237 @@
+.navbar-custom {
+    background-color: black;
+    position:absolute;
+    display:contents;
+    justify-content: center;
+    justify-items: center;
+}
+.navbar-nav-custom{
+    justify-content:center;
+}
+html {
+  font-size: 14px;
+}
+.container-signin {
+    background-color: #f1f1f1;
+    text-align: left;
+    color: black;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.container-login {
+    background-color: #f1f1f1;
+    text-align: left;
+    color: black;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+a{
+    color: aqua;
+}
+
+body {
+  margin-bottom: 60px;
+}
+body {
+    font-size: 15px;
+    line-height: 1.6;
+    color: white;
+    background-color: black;
+    margin: 0;
+   
+
+}
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* okno */
+
+.krasivaya-knopka {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    color: aqua;
+    border: 2px solid #fbfbfb;
+    padding: 1rem 2rem;
+    font-weight: 900;
+    box-shadow: 0px 0px 12px 0px rgba(51, 47, 47, 0.48), 0px 0px 8px -15px rgba(255, 255, 255, 0.52);
+}
+
+.krasivaya {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    color: aqua;
+    border: 2px solid #fbfbfb;
+    padding: 1rem 2rem;
+    font-weight: 900;
+    box-shadow: 0px 0px 12px 0px rgba(51, 47, 47, 0.48), 0px 0px 8px -15px rgba(255, 255, 255, 0.52);
+}
+    .krasivaya:hover {
+        background: white;
+        color: black;
+    }
+
+    .krasivaya-knopka:hover {
+        background: white;
+        color: black;
+    }
+
+.kanevalus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: .64s ease-in-out;
+}
+
+.vepuvakus-davnusen {
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    max-height: 600px;
+    width: 60%;
+    height: 80%;
+    background-color: #f2f4f5;
+    transform: rotate(32deg);
+    transition: .64s ease-in-out;
+}
+
+.povekunosa {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .povekunosa img {
+        width: auto;
+        height: 100%;
+    }
+
+.kanevalustext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    padding: 4rem;
+}
+
+    .kanevalustext h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        color: #151414;
+    }
+
+    .kanevalustext p {
+        font-size: .875rem;
+        color: #5d5b5b;
+        line-height: 1.5;
+    }
+
+    .kanevalustext a {
+        text-decoration: none;
+        color: #47BDFF;
+    }
+
+.kanevalus:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+    .kanevalus:target .vepuvakus-davnusen {
+        bottom: 0;
+        right: 0;
+        transform: rotate(0);
+    }
+
+.kuchayevsena {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 100%;
+    background-color: #47BDFF;
+    z-index: 4;
+    color: #f7f5f5;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Okno2 */
+
+.krasivaya-knopka2 {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    color: aqua;
+    border: 2px solid #fbfbfb;
+    padding: 1rem 2rem;
+    font-weight: 900;
+    box-shadow: 0px 0px 12px 0px rgba(51, 47, 47, 0.48), 0px 0px 8px -15px rgba(255, 255, 255, 0.52);
+}
+
+    .krasivaya-knopka2:hover {
+        background: white;
+        color: black;
+    }
+
+.kanevalus2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: .64s ease-in-out;
+}
+
+.vepuvakus-davnusen2 {
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    max-height: 600px;
+    width: 60%;
+    height: 80%;
+    background-color: #f2f4f5;
+    transform: rotate(32deg);
+    transition: .64s ease-in-out;
+}
+
+.povekunosa2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .povekunosa2 img {
+        width: auto;
+        height: 100%;
+    }
+
+.kanevalustext2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    padding: 4rem;
+}
+
+    .kanevalustext2 h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        color: #151414;
+    }
+
+    .kanevalustext2 p {
+        font-size: .875rem;
+        color: #5d5b5b;
+        line-height: 1.5;
+    }
+
+    .kanevalustext2 a {
+        text-decoration: none;
+        color: #47BDFF;
+    }
+
+.kanevalus2:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+    .kanevalus2:target .vepuvakus-davnusen2 {
+        bottom: 0;
+        right: 0;
+        transform: rotate(0);
+    }
+
+.kuchayevsena2 {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 100%;
+    background-color: #47BDFF;
+    z-index: 4;
+    color: #f7f5f5;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Okno 3*/
+* {
+    box-sizing: border-box
+}
+/* Add padding to containers */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+    .registerbtn:hover {
+        opacity: 1;
+    }
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.krasivaya-knopka3 {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    color: aqua;
+    border: 2px solid #fbfbfb;
+    padding: 1rem 2rem;
+    font-weight: 1000;
+    box-shadow: 0px 0px 12px 0px rgba(51, 47, 47, 0.48), 0px 0px 8px -15px rgba(255, 255, 255, 0.52);
+}
+
+    .krasivaya-knopka3:hover {
+        background: white;
+        color: black;
+    }
+
+.kanevalus3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 110vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: .64s ease-in-out;
+}
+
+.vepuvakus-davnusen3 {
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    max-height: 900px;
+    width: 60%;
+    height: 80%;
+    background-color: #f2f4f5;
+    transform: rotate(32deg);
+    transition: .64s ease-in-out;
+}
+
+.kanevalustext3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+
+    .kanevalustext3 h5 {
+        font-size: 1rem;
+        font-weight: 200;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        color: #151414;
+    }
+
+    .kanevalustext3 p {
+        font-size: .875rem;
+        color: #5d5b5b;
+        line-height: 1.5;
+    }
+
+    .kanevalustext3 a {
+        text-decoration: none;
+        color: #47BDFF;
+    }
+
+.kanevalus3:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+    .kanevalus3:target .vepuvakus-davnusen3 {
+        bottom: 0;
+        right: 0;
+        transform: rotate(0);
+    }
+
+.kuchayevsena3 {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 100%;
+    background-color: #47BDFF;
+    z-index: 4;
+    color: #f7f5f5;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*Okno 4*/
+* {
+    box-sizing: border-box
+}
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+/* Set a style for the submit/register button */
+.signinbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.rsigninbtn:hover {
+    opacity: 1;
+}
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+/* Set a grey background color and center the text of the "sign in" section */
+/*
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+*/
+
+.krasivaya-knopka4 {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: black;
+    color: aqua;
+    border: 2px solid #fbfbfb;
+    padding: 1rem 2rem;
+    font-weight: 1000;
+    box-shadow: 0px 0px 12px 0px rgba(51, 47, 47, 0.48), 0px 0px 8px -15px rgba(255, 255, 255, 0.52);
+}
+
+    .krasivaya-knopka4:hover {
+        background: white;
+        color: black;
+    }
+
+.kanevalus4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 110vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    transition: .64s ease-in-out;
+}
+
+.vepuvakus-davnusen4 {
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    max-height: 900px;
+    width: 60%;
+    height: 80%;
+    background-color: #f2f4f5;
+    transform: rotate(32deg);
+    transition: .64s ease-in-out;
+}
+
+.kanevalustext4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+
+    .kanevalustext4 h5 {
+        font-size: 1rem;
+        font-weight: 200;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        color: #151414;
+    }
+
+    .kanevalustext4 p {
+        font-size: .875rem;
+        color: #5d5b5b;
+        line-height: 1.5;
+    }
+
+    .kanevalustext4 a {
+        text-decoration: none;
+        color: #47BDFF;
+    }
+
+.kanevalus4:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+    .kanevalus4:target .vepuvakus-davnusen4 {
+        bottom: 0;
+        right: 0;
+        transform: rotate(0);
+    }
+
+.kuchayevsena4 {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 14px;
+    font-weight: 200;
+    border-radius: 100%;
+    background-color: #47BDFF;
+    z-index: 4;
+    color: #f7f5f5;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 100px;
+    margin: auto;
+    max-height: 10000px;
+    min-height: 100px;
+    border-radius: 50px;
+}
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background: url("../images/Shapka.png") center no-repeat;*/
+    background-color: #0f0f0f;
+    background-size: cover;
+}
+.intro_container{
+    padding: 16px;
+    height: 350px;
+}
+
+.intro_tittle {
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.intro_suptittle {
+    padding-left: 250px;
+    text-align: left;
+    color: aqua;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.intro_inner {
+    text-align: center;
+    width: calc(250px + (1500 - 250) * ((100vw - 500px) / (1920 - 500)));
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+/* Center */
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /*  background: url("../images/Cerdina2.png") center no-repeat;*/
+    background-color: #0f0f0f;
+    background-size: cover;
+}
+.container_center {
+    padding: 16px;
+    height: 350px;
+}
+
+.center_inner {
+    flex: 0 0 220px;
+    padding-bottom: 200px;
+    text-align: center;
+    /*    width: calc(250px + (1500 - 250) * ((100vw - 500px) / (1920 - 500)));*/
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.center_titltle {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.center_suptittle {
+    padding-right: 500px;
+    text-align: justify;
+    color: aqua;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.center_suptittle2 {
+    padding-left: 500px;
+    text-align: justify;
+    color: aqua;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.knopka {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-left: 700px;
+}
+
+    .knopka > img {
+        position: relative;
+        text-align: center;
+        visibility: hidden;
+    }
+
+.centered {
+    font-size: 20px;
+    position: absolute;
+    bottom: 12%;
+    right: 0%;
+    margin: 0 50px;
+    color: white;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+    .centered:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        opacity: 0;
+        background-color: aqua;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        transition: opacity .1s linear;
+    }
+
+    .centered:hover {
+        color: aqua;
+    }
+
+        .centered:hover:after {
+            opacity: 1;
+        }
+
+/* Osnova */
+.osnova {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /*   background: url("../images/Osnova.png") center no-repeat;*/
+    background-color: #0f0f0f;
+    background-size: cover;
+}
+
+.cards {
+    display: grid;
+    /* Автоматически заполняем на всю ширину grid-контейнера */
+    grid-template-columns: repeat(auto-fill, 225px);
+    width: 100%;
+    max-width: 1000px; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 100px; /* Отступ между колонками */
+    margin: 0 auto;
+}
+
+.card__bottom a {
+    text-decoration: none;
+    position: absolute;
+    display: flex;
+    width: 75%;
+    bottom: 0;
+    margin: 0 20px 10px 22px;
+    justify-content: space-around;
+}
+
+.card {
+    width: 250px;
+    min-height: 450px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    border-radius: 4px;
+    transition: 0.2s;
+    background-color: #0f0f0f;
+    position: relative;
+}
+    /* При наведении на карточку - меняем цвет тени */
+    .card:hover {
+        box-shadow: 4px 8px 16px rgba(255, 255, 255, 0.2);
+    }
+
+.card__top {
+    flex: 0 0 220px; /* Задаем высоту 220px, запрещаем расширение и сужение по высоте */
+    position: relative;
+    overflow: hidden; /* Скрываем, что выходит за пределы */
+}
+/* Контейнер для картинки */
+.card__image {
+   /* background: url("../images/Shapka.png") center no-repeat;*/
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+    .card__image > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Встраиваем картинку в контейнер card__image */
+        transition: 0.2s;
+    }
+    /* При наведении - увеличиваем картинку */
+    .card__image:hover > img {
+        transform: scale(1.1);
+    }
+
+.card__bottom {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto; /* Занимаем всю оставшуюся высоту карточки */
+    padding: 10px;
+}
+
+.card__title {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: aqua;
+}
+
+.card__add {
+    display: block;
+    width: 100%;
+    font-weight: 100;
+    font-size: 17px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer; /* Меняем курсор при наведении */
+    transition: 0.2s;
+    margin-top: auto; /* Прижимаем кнопку к низу карточки */
+}
+
+    .card__add:hover {
+        border: 1px solid aqua;
+        background-color: black;
+        color: white;
+    }
+
+/* Header */
+.header {
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+/* Nav */
+.nav {
+    font-size: 14px;
+    /*    text-transform: uppercase;*/
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 50px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+    .nav_link:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        opacity: 0;
+        background-color: aqua;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1;
+        transition: opacity .1s linear;
+    }
+
+    .nav_link:hover {
+        color: aqua;
+    }
+
+        .nav_link:hover:after {
+            opacity: 1;
+        }
+
+/* Tets*/
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /*  background: url("../images/Fon.png") center no-repeat;*/
+    background-color: #0f0f0f;
+    background-size: cover;
+}
+
+.test_inner {
+    padding-top: 200px;
+    flex: 0 0 220px;
+    padding-bottom: 200px;
+    text-align: center;
+    /*    width: calc(250px + (1500 - 250) * ((100vw - 500px) / (1920 - 500)));*/
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.test_titltle {
+    color: white;
+    border: 1px solid aqua;
+    box-shadow: 4px 8px 16px rgba(255, 255, 255, 0.2);
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.test_suptittle {
+    padding-right: 400px;
+    text-align: justify;
+    color: aqua;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.knopka2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-right: 500px;
+    padding-top: 30px;
+}
+
+.yoga {
+    padding-top: 60px;
+}
+/* Kyrs */
+.kyrs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 130vh;
+    /*   background: url("../images/Kyrs.png") center no-repeat;*/
+    background-color: #0f0f0f;
+    background-size: cover;
+}
+
+.kyrs_inner {
+    padding-top: 200px;
+    flex: 0 0 220px;
+    padding-bottom: 200px;
+    text-align: center;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.kyrs_titltle {
+    color: white;
+    background-color: #0f0f0f;
+    border: 1px solid aqua;
+    box-shadow: 4px 8px 16px rgba(255, 255, 255, 0.2);
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.kyrs_suptittle {
+    padding-right: 400px;
+    text-align: justify;
+    color: aqua;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.visota {
+    padding-top: 200px;
+}
+
+.card2 {
+    width: 250px;
+    min-height: 450px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+}
+    /* При наведении на карточку - меняем цвет тени */
+    .card2:hover {
+        box-shadow: 4px 8px 16px rgba(255, 255, 255, 0.2);
+    }
+
+.card__top2 {
+    flex: 0 0 220px; /* Задаем высоту 220px, запрещаем расширение и сужение по высоте */
+    position: relative;
+    overflow: hidden; /* Скрываем, что выходит за пределы */
+}
+/* Контейнер для картинки */
+.card__image2 {
+  /*  background: url("../images/Shapka.png") center no-repeat;*/
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+    .card__image2 > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Встраиваем картинку в контейнер card__image */
+        transition: 0.2s;
+    }
+    /* При наведении - увеличиваем картинку */
+    .card__image2:hover > img {
+        transform: scale(1.1);
+    }
+
+.card__bottom2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto; /* Занимаем всю оставшуюся высоту карточки */
+    padding: 10px;
+}
+
+.card__title2 {
+    text-align: justify;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: aqua;
+}
+
+.card__add2 {
+    display: block;
+    width: 100%;
+    font-weight: 100;
+    font-size: 17px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer; /* Меняем курсор при наведении */
+    transition: 0.2s;
+    margin-top: auto; /* Прижимаем кнопку к низу карточки */
+}
+
+    .card__add2:hover {
+        border: 1px solid aqua;
+        background-color: black;
+        color: white;
+    }
+
+/* Predpodval*/
+.predpodval {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background: url("../images/predpodval.png") center no-repeat;*/
+    /*151414*/
+    background-color: #0f0f0f;
+    background-size: cover;
+}
+
+.pred_inner {
+    padding-top: 200px;
+    flex: 0 0 220px;
+    padding-bottom: 200px;
+    text-align: center;
+    /*    width: calc(250px + (1500 - 250) * ((100vw - 500px) / (1920 - 500)));*/
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.pred_titltle {
+    /*    border: 1px solid aqua;*/
+    /*    box-shadow: 4px 8px 16px rgba(255, 255, 255, 0.2);*/
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.1;
+    color: aqua;
+}
+
+.pred_suptittle {
+    padding-right: 10px;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+/* Podval*/
+.podval {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+   /* background: url("../images/Podval.png") center no-repeat;*/
+    background-color: black;
+    background-size: cover; 
+}
+
+.podval_inner {
+    padding-top: 50px;
+    flex: 0 0 220px;
+    padding-bottom: 50px;
+    text-align: center;
+    /*    width: calc(250px + (1500 - 250) * ((100vw - 500px) / (1920 - 500)));*/
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.podval_titltle {
+    /*    border: 1px solid aqua;*/
+    /*    box-shadow: 4px 8px 16px rgba(255, 255, 255, 0.2);*/
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+}
+
+.podval_suptittle {
+    padding-right: 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 800px;
+}
